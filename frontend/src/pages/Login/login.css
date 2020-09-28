@@ -1,0 +1,64 @@
+
+#container{
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    text-align: center;
+}
+#container #logo{
+    width: 500px;
+}
+#container #logo h1{
+    color: #873AC7;
+    font-size: 106px;
+    font-family: roboto;
+    font-weight: bold;
+}
+input, button{
+    font-size: 18px;
+}
+input[type="text"]{
+    color: #545454;
+}
+input[type="password"]{
+    color: #545454;
+}
+.blue_button{
+    background-color: #3598FC;
+    color: white;
+    cursor: pointer;
+    
+}
+.blue_button:hover{
+    box-shadow: 1px 0px 10px 0px #3598FC;
+    transition: .5s ease-out;
+}
+.secundary_button{
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+#container #form form input, button{
+    padding: 20px;
+    width: 400px;
+    border: none;
+    outline: none;
+    margin: 20px 0px ;
+    
+    border-radius: 6px;
+
+}
+#container #form form a{
+    color: white;
+
+
+}
+#form{
+    width: 500px;
+
+}

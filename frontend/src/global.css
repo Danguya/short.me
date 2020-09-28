@@ -1,0 +1,15 @@
+body{
+    background-color: #36174D;
+    display: flex;
+    justify-content: center;
+    font-family: roboto, poppins, sans-serif, helvetica;
+
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
